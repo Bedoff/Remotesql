@@ -2,10 +2,10 @@ import mysql.connector
 
 def mydefsql(sorgu):
     mydb = mysql.connector.connect(
-    host="localhost",
-    user="root",
-    passwd="1234",
-    database = "world"
+    host="localhost",  #CHANGE THIS
+    user="root",       #CHANGE THIS 
+    passwd="1234",     #CHANGE THIS
+    database = "world" #CHANGE THIS
 )
 
     mycursor = mydb.cursor()
